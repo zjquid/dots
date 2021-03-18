@@ -49,6 +49,7 @@ autorunApps =
 {
 
     "./run.sh",
+    "/home/andrew/.config/polybar/launch.sh",
 
 }
 if autorun then
