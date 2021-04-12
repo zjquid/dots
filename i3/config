@@ -1,6 +1,9 @@
 # i3 config by Andrew Hooke
 # rewriting from scratch because old reliable got boring
 
+# i3lock keybind
+bindsym $mod+Shift+Tab exec i3lock
+
 # removes borders
 for_window [class="^.*"] border pixel 0
 
