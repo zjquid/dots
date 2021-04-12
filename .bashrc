@@ -7,6 +7,7 @@ alias gimme='sudo pacman -S'
 alias updatepls='sudo pacman -Syu'
 alias ohyeah='sudo make uninstall && sudo make clean install'
 alias cd..='cd ..'
+alias vim='nvim'
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
