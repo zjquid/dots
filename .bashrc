@@ -3,8 +3,8 @@
 #
 
 # my aliases
-alias gimme='sudo pacman -S'
-alias updatepls='sudo pacman -Syu'
+alias gimme='sudo apt install'
+alias updatepls='sudo apt update && sudo apt upgrade'
 alias ohyeah='sudo make uninstall && sudo make clean install'
 alias vim='nvim'
 alias redofonts='fc-cache -f -v'
@@ -12,6 +12,7 @@ alias redofonts='fc-cache -f -v'
 alias clea='clear'
 alias cd..='cd ..'
 alias ..='cd ..'
+alias ls='ls --color'
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
