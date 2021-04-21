@@ -1,8 +1,15 @@
-xterm*faceName: UbuntuMono
-xterm*faceSize: 14
-! colors
-    xterm*foreground:            rgb:eb/db/b2
-    xterm*background:            rgb:28/28/28
+!   xterm config
+!   andrew hooke
+!
+!   make sure to 
+!   $ xrdb -merge ~/.Xresources
+
+!   font
+    xterm*faceName: UbuntuMono
+    xterm*faceSize: 14
+!   colors - all of em (gruvbox theme based on my st config!)
+    xterm*foreground:                  rgb:eb/db/b2
+    xterm*background:                  rgb:28/28/28
 !   normal colors
     xterm*color0:                      rgb:28/28/28
     xterm*color1:                      rgb:fb/49/34
