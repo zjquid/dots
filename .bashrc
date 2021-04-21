@@ -5,13 +5,16 @@
 ### my aliases ###
 
 # shortcuts
-alias gimme='sudo pacman -S'
-alias updatepls='sudo pacman -Syu'
-alias ohyeah='sudo make uninstall && sudo make clean install'
-alias redofonts='fc-cache -f -v'
-alias lsa='ls -a'
+alias gimme='sudo pacman -S' # get package
+alias updatepls='sudo pacman -Syu' # self explanatory
+alias ohyeah='sudo make uninstall && sudo make clean install' # useful for dwm/st
+alias redofonts='fc-cache -f -v' # when I use nodejs it messes up my fonts o.o
+alias lsa='ls -a' # does ls but shows hidden files
 # redirects
-alias vim='nvim'
+alias vim='nvim' # you already know
+alias emacs='nvim'
+alias nano='nvim'
+alias gedit='nvim'
 # common mistakes
 alias clea='clear'
 alias cd..='cd ..'
@@ -20,7 +23,7 @@ alias ..='cd ..'
 ### end of my aliases ###
 
 # If not running interactively, don't do anything
-# (this came default in the artix .bashrc)
+# (this came default in the artix .bashrc, dont know what it do)
 [[ $- != *i* ]] && return
 
 # alias ls='ls --color=auto'
