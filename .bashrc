@@ -20,6 +20,9 @@
     alias clea='clear'
     alias cd..='cd ..'
     alias ..='cd ..'
+# audio control
+    alias audio-hdmi='pacmd set-card-profile 0 output:hdmi-stereo'
+    alias audio-laptop='pacmd set-card-profile 0 output:analog-stereo+input:analog-stereo'
 
 ### end of my aliases ###
 
