@@ -10,7 +10,8 @@
     alias updatepls='sudo pacman -Syu' # self explanatory
     alias ohyeah='sudo make uninstall && sudo make clean install' # useful for dwm/st
     alias redofonts='fc-cache -f -v' # when I use nodejs it messes up my fonts o.o
-    alias lsa='ls -a' # does ls but shows hidden files
+    alias lsa='ls -a --color' # does ls but shows hidden files
+    alias ls='ls --color'
 # redirects
     alias vim='nvim' # you already know
     alias emacs='nvim'
