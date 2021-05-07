@@ -1,9 +1,10 @@
-!   xterm config
+!   xterm config / and urxvt config
 !   andrew hooke
 !
 !   make sure to 
 !   $ xrdb -merge ~/.Xresources
 
+!   XTERM CONFIG
 !   font
     xterm*faceName: UbuntuMono
     xterm*faceSize: 14
@@ -28,3 +29,30 @@
     xterm*color13:                     rgb:d6/5d/0e
     xterm*color14:                     rgb:68/9d/6a
     xterm*color15:                     rgb:a8/99/84
+
+!   URXVT CONFIG
+    *.color0:                          rgb:28/28/28
+    *.color1:                          rgb:fb/49/34
+    *.color2:                          rgb:b8/bb/26
+    *.color3:                          rgb:fa/bd/2f
+    *.color4:                          rgb:83/a5/98
+    *.color5:                          rgb:fe/81/09
+    *.color6:                          rgb:8e/c0/7c
+    *.color7:                          rgb:eb/db/b2
+!   bright colors
+    *.color8:                          rgb:92/83/74
+    *.color9:                          rgb:cc/24/1d
+    *.color10:                         rgb:98/97/1a
+    *.color11:                         rgb:d7/99/21
+    *.color12:                         rgb:45/85/88
+    *.color13:                         rgb:d6/5d/0e
+    *.color14:                         rgb:68/9d/6a
+    *.color15:                         rgb:a8/99/84
+!   foreground/background
+    *.foreground:                      rgb:eb/db/b2
+    *.background:                      rgb:28/28/28
+    *.cursorColor:                     rgb:28/28/28
+    URxvt*scrollBar:                   false
+!   font
+    URxvt.font:                        xft:UbuntuMono Nerd Font:pixelsize=20:antialias=true:hinting=true
+    URxvt.boldFont:                    xft:UbuntuMono Nerd Font:bold:pixelsize=20:antialias=true:hinting=true

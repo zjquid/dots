@@ -12,6 +12,7 @@
     alias redofonts='fc-cache -f -v' # when I use nodejs it messes up my fonts o.o
     alias lsa='ls -a --color' # does ls but shows hidden files
     alias ls='ls --color'
+    alias eirc='vim ~/.config/i3/config'
 # redirects
     alias vim='nvim' # you already know
     alias emacs='nvim'
