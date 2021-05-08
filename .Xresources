@@ -51,8 +51,18 @@
 !   foreground/background
     *.foreground:                      rgb:eb/db/b2
     *.background:                      rgb:28/28/28
-    *.cursorColor:                     rgb:28/28/28
+    *.cursorColor:                     rgb:eb/db/b2
     URxvt*scrollBar:                   false
 !   font
     URxvt.font:                        xft:UbuntuMono Nerd Font:pixelsize=20:antialias=true:hinting=true
     URxvt.boldFont:                    xft:UbuntuMono Nerd Font:bold:pixelsize=20:antialias=true:hinting=true
+!   opacity
+    urxvt*depth:                       32
+    URxvt.background:                  [95]#282828
+!   border
+    URxvt.internalBorder:              0
+! Restore Ctrl+Shift+(c|v)
+    URxvt.keysym.Shift-Control-V:      eval:paste_clipboard
+    URxvt.keysym.Shift-Control-C:      eval:selection_to_clipboard
+    URxvt.iso14755:                    false
+    URxvt.iso14755_52:                 false
