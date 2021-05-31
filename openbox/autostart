@@ -1,0 +1,18 @@
+# openbox autostart
+# andrew hooke 05/30/21
+
+# monitor setup
+xrandr --output LVDS1 --mode 1366x768 --scale-from 1920x1080 --output HDMI1 --mode 1920x1080 --scale 1x1 --same-as LVDS1 &
+xrandr --output LVDS1 --mode 1366x768 --scale-from 1920x1080 --output HDMI2 --mode 1920x1080 --scale 1x1 --same-as LVDS1 &
+
+# wallpaper
+feh --bg-scale ~/wiig/art/albanhills.jpg &
+
+# compositor
+picom &
+
+# taskbar
+# plank &
+
+# polybar??
+~/.config/polybar/launch.sh --blocks
