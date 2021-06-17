@@ -13,6 +13,7 @@
     alias lsa='ls -a --color' # does ls but shows hidden files
     alias ls='ls --color'
     alias eirc='vim ~/.config/i3/config'
+    alias fixtime='sudo timedatectl set-ntp true'
 # redirects
     alias vim='nvim' # you already know
     alias emacs='nvim'
