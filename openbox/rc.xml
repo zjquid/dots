@@ -259,7 +259,7 @@
         <to>5</to>
       </action>
     </keybind>
-    <keybind key="A-d">
+    <keybind key="A-S-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
     <!-- Keybindings for windows -->
@@ -350,11 +350,18 @@
         <execute>dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause</execute>
       </action>
     </keybind>
-    <!--dmenu-->
+    <!--rofi-->
     <keybind key="A-r">
       <action name="Execute">
-        <name>dmenu</name>
+        <name>rofi</name>
         <command>rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/polybar/blocks/scripts/rofi/launcher.rasi</command>
+      </action>
+    </keybind>
+    <!--dmenu-->
+    <keybind key="A-d">
+      <action name="Execute">
+        <name>dmenu</name>
+        <command>dmenu_run</command>
       </action>
     </keybind>
     <!--firefox-->
