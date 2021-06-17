@@ -17,7 +17,7 @@ bindsym $mod+Shift+o gaps outer all minus 5
 bindsym $mod+p gaps outer all plus 5
 
 # wallpaper
-exec --no-startup-id feh --bg-scale ~/wiig/art/sinceileftyou.jpg
+exec --no-startup-id feh --bg-scale ~/wiig/p/train1.jpg
 
 # firefox
 bindsym $mod+b exec firefox
@@ -50,7 +50,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal - st by default.
-bindsym $mod+Return exec st 
+bindsym $mod+Return exec urxvt 
 
 # kill focused window
 bindsym $mod+Shift+q kill
