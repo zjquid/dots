@@ -371,6 +371,10 @@
         <command>firefox</command>
       </action>
     </keybind>
+    <!--fullscreen windows-->
+    <keybind key="A-f">
+      <action name="ToggleMaximize"/>
+    </keybind>
     <!--restart openbox-->
     <keybind key="A-S-r">
       <action name="Execute">
