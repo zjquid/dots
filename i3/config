@@ -25,6 +25,9 @@ bindsym $mod+b exec firefox
 # compositor
 exec picom
 
+# map control to capslock
+exec --no-startup-id /usr/bin/setxkbmap -option "ctrl:nocaps"
+
 # mod1 = alt, mod4 = super
 set $mod Mod1
 

@@ -12,3 +12,6 @@ picom &
 
 # taskbar
 tint2 &
+
+# map control to capslock
+/usr/bin/setxkbmap -option "ctrl:nocaps" &
