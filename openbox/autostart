@@ -14,4 +14,4 @@ tint2 &
 /usr/bin/setxkbmap -option "ctrl:nocaps" &
 
 # wallpaper
-feh --bg-scale ~/wiig/p/train1.jpg &
+feh --bg-fill ~/wiig/p/train1.jpg &
