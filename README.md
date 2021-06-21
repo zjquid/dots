@@ -32,3 +32,5 @@ thunar
 tint2
 xorg
 * for apt distros swap base-devel for build-essential
+* I recommend compiling dmenu from source, either from https://tools.suckless.org/dmenu/ or my repo
+* my rofi configs use stuff from https://github.com/adi1090x/polybar-themes - follow the install instructions, but rewrite the launch.sh to use my polybar theme
