@@ -5,7 +5,7 @@
 <menu id="apps-accessories-menu" label="Accessories">
   <item label="Calculator">
     <action name="Execute">
-      <command>galculator</command>
+      <command>free42bin</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
