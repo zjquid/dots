@@ -214,7 +214,7 @@ tooltip_font_color = #dddddd 100
 separator = new
 separator_background_id = 0
 separator_color = #eaeaea 10
-separator_style = [line]
+separator_style = dots
 separator_size = 5
 separator_padding 5 5 
 
@@ -243,7 +243,7 @@ execp_icon_h = 0
 # Executor 2
 execp = new
 execp_command = acpi -t | awk '{print $4}'
-execp_interval = 60 
+execp_interval = 15 
 execp_has_icon = 0
 execp_cache_icon = 1
 execp_continuous = 1
