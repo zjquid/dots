@@ -14,9 +14,9 @@
     alias ls='ls --color'
     alias eirc='vim ~/.config/i3/config'
     alias fixtime='sudo timedatectl set-ntp true'
+    alias untar='tar -xzvf' #xtract ze vucking files
 # redirects
     alias vim='nvim' # you already know
-    alias emacs='nvim'
     alias nano='nvim'
     alias gedit='nvim'
 # common mistakes
