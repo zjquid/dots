@@ -16,6 +16,8 @@ bindsym $mod+Shift+p gaps outer all plus 5
 bindsym $mod+Shift+o gaps outer all minus 5
 bindsym $mod+p gaps outer all plus 5
 
+# capslock control
+exec --no-startup-id xmodmap ~/.Xmodmap
 # wallpaper
 exec --no-startup-id feh --bg-scale ~/wiig/p/train1.jpg
 
