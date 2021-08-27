@@ -15,6 +15,10 @@
     alias eirc='vim ~/.config/i3/config'
     alias fixtime='sudo timedatectl set-ntp true'
     alias untar='tar -xzvf' #xtract ze vucking files
+    alias ga='git add'
+    alias gc='git commit -m'
+    alias gp='git push'
+    alias gs='git status'
 # redirects
     alias vim='nvim' # you already know
     alias nano='nvim'
