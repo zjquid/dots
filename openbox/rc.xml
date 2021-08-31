@@ -57,7 +57,7 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>UbuntuMono Nerd Font</name>
+      <name>Hack Nerd Font Mono</name>
       <size>10</size>
       <!-- font size in points -->
       <weight>Bold</weight>
@@ -66,7 +66,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveWindow">
-      <name>UbuntuMono Nerd Font</name>
+      <name>Hack Nerd Font Mono</name>
       <size>10</size>
       <!-- font size in points -->
       <weight>Bold</weight>
@@ -93,21 +93,21 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>sans</name>
+      <name>Hack Nerd Font Mono</name>
       <size>9</size>
       <!-- font size in points -->
-      <weight>bold</weight>
+      <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>normal</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>sans</name>
+      <name>Hack Nerd Font Mono</name>
       <size>9</size>
       <!-- font size in points -->
-      <weight>bold</weight>
+      <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>normal</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
   </theme>
@@ -371,6 +371,20 @@
         <command>firefox</command>
       </action>
     </keybind>
+    <!--emacs-->
+    <keybind key="A-e">
+      <action name="Execute">
+        <name>emacs</name>
+        <command>emacs</command>
+      </action>
+    </keybind>
+    <!--wallpaper-->
+    <keybind key="C-S-r">
+      <action name="Execute">
+        <name>wallpaper</name>
+        <command>~/wiig/wallpaper.sh</command>
+      </action>
+    </keybind>
     <!--fullscreen windows-->
     <keybind key="A-f">
       <action name="ToggleMaximize"/>
@@ -393,53 +407,53 @@
     <!--  pseudotiling  -->
     <!--left pane-->
     <keybind key="A-S-h">
-        <action name="Unmaximize"/>
-        <action name="MoveResizeTo">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
         <x>0</x>
         <y>0</y>
         <width>50%</width>
         <height>100%</height>
-    </action>
+      </action>
     </keybind>
     <!--right pane-->
     <keybind key="A-S-l">
-        <action name="Unmaximize"/>
-        <action name="MoveResizeTo">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
         <x>50%</x>
         <y>0</y>
         <width>50%</width>
         <height>100%</height>
-    </action>
+      </action>
     </keybind>
     <!--top pane-->
     <keybind key="A-S-k">
-        <action name="Unmaximize"/>
-        <action name="MoveResizeTo">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
         <x>0</x>
         <y>0</y>
         <width>100%</width>
         <height>50%</height>
-    </action>
+      </action>
     </keybind>
     <!--bottom pane-->
     <keybind key="A-S-j">
-        <action name="Unmaximize"/>
-        <action name="MoveResizeTo">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
         <x>0</x>
         <y>50%</y>
         <width>100%</width>
         <height>50%</height>
-    </action>
+      </action>
     </keybind>
     <!--center pane-->
     <keybind key="A-S-f">
-        <action name="Unmaximize"/>
-        <action name="MoveResizeTo">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
         <x>center</x>
         <y>center</y>
         <width>60%</width>
         <height>60%</height>
-    </action>
+      </action>
     </keybind>
     <!--exit-->
     <keybind key="A-S-e">
@@ -822,12 +836,25 @@
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
   </menu>
   <applications>
+
+<application name="emacs*" class="Emacs*" type="normal">
+    <position force="yes">
+        <x>0</x>
+        <y>0</y>
+    </position>
+    <size>
+        <height>100%</height>
+        <width>100%</width>
+    </size>
+    <decor>yes</decor>
+    <maximized>yes</maximized>
+</application>
+
     <!--
   # this is an example with comments through out. use these to make your
   # own rules, but without the comments of course.
   # you may use one or more of the name/class/role/title/type rules to specify
   # windows to match
-
   <application name="the window's _OB_APP_NAME property (see obxprop)"
               class="the window's _OB_APP_CLASS property (see obxprop)"
           groupname="the window's _OB_APP_GROUP_NAME property (see obxprop)"

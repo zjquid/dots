@@ -2,11 +2,12 @@
 
 echo 'this installs neovim nightly. this will take a while.'
 
-echo 'ubuntu mode enabled.'
-sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip curl
+B
+#echo 'ubuntu mode enabled.'
+#sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip curl
 
-#echo 'arch mode enabled.'
-#sudo pacman -S base-devel cmake unzip ninja tree-sitter
+echo 'arch mode enabled.'
+sudo pacman -S base-devel cmake unzip ninja tree-sitter
 
 cd ~
 git clone https://github.com/neovim/neovim
