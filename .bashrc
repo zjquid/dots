@@ -19,6 +19,8 @@
     alias gc='git commit -m'
     alias gp='git push'
     alias gs='git status'
+    alias matlab='~/matlab/matlab/bin/matlab'
+    alias bt='acpi -bt'
 # redirects
     alias vim='nvim' # you already know
     alias nano='nvim'
