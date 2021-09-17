@@ -342,7 +342,12 @@
     </keybind>
     <keybind key="XF86AudioMute">
       <action name="Execute">
-        <execute>amixer -q -D pulse sset Master toggle</execute>
+        <execute>amixer -q sset Master toggle</execute>
+      </action>
+    </keybind>
+    <keybind key="A-m">
+      <action name="Execute">
+        <execute>amixer -q sset Master toggle</execute>
       </action>
     </keybind>
     <keybind key="XF86AudioPlay">
@@ -354,7 +359,7 @@
     <keybind key="A-r">
       <action name="Execute">
         <name>rofi</name>
-        <command>rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/polybar/blocks/scripts/rofi/launcher.rasi</command>
+        <command>rofi -show drun</command>
       </action>
     </keybind>
     <!--dmenu-->
