@@ -2,6 +2,8 @@
 # ~/.bashrc by andrew hooke
 #
 
+    export EDITOR='nvim'
+
 ### my aliases ###
 
 # shortcuts
@@ -25,6 +27,7 @@
     alias vim='nvim' # you already know
     alias nano='nvim'
     alias gedit='nvim'
+    alias em='emacs -q -nw'
 # common mistakes
     alias clea='clear'
     alias cd..='cd ..'
