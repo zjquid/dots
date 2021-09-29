@@ -3,6 +3,7 @@
 #
 
     export EDITOR='nvim'
+    alias neofetch='neofetch --ascii_distro artix_small'
 
 ### my aliases ###
 
@@ -27,7 +28,7 @@
     alias vim='nvim' # you already know
     alias nano='nvim'
     alias gedit='nvim'
-    alias em='emacs -q -nw'
+    alias em='env HOME=$HOME/microemacs emacs -nw'
 # common mistakes
     alias clea='clear'
     alias cd..='cd ..'
