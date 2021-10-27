@@ -1,0 +1,18 @@
+# openbox autostart
+# andrew hooke 05/30/21
+
+# monitor setup
+# xrandr --output LVDS1 --mode 1680x1050 --scale-from 1920x1080 --output DisplayPort-1-1 --mode 1920x1080 --scale 1x1 --same-as LVDS1 &
+
+# compositor
+picom &
+
+# taskbar
+# tint2 &
+~/.config/polybar/blocks/launch.sh &
+
+# map control to capslock
+/usr/bin/setxkbmap -option "ctrl:nocaps" &
+
+# wallpaper
+feh --bg-tile --randomize ~/wiig/pattemp/* &

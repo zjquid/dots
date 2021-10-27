@@ -1,0 +1,22 @@
+set atblanks
+set autoindent
+set backup
+set backupdir "/home/andrew/Nano_Backups/"
+set boldtext
+set constantshow
+set cutfromcursor
+set indicator
+set linenumbers
+set magic
+set minibar
+set mouse
+set showcursor
+set softwrap
+set speller "aspell -x -c"
+set trimblanks
+set whitespace "»·"
+set zap
+set multibuffer
+
+include "/usr/share/nano/*.nanorc"
+
